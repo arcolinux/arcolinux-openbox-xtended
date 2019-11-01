@@ -8,11 +8,11 @@
 compton -b --config ~/.config/compton.conf &
 
 # Set background image
-nitrogen --restore
+#nitrogen --restore
 
 $HOME/.config/polybar/launch.sh &
 
-(am-conky-session --autostart) &
+#(am-conky-session --autostart) &
 
 #bluetooth#
 #(blueberry-tray) &
