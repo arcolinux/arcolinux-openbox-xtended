@@ -10,12 +10,16 @@ compton -b --config ~/.config/compton.conf &
 # Set background image
 #nitrogen --restore
 
+#tint2 &
 $HOME/.config/polybar/launch.sh &
 
 #(am-conky-session --autostart) &
 
 #bluetooth#
 #(blueberry-tray) &
+
+# install xcape - press super to get menu
+#xcape -e 'Super_L=Super_L|space'
 
 #on laptops without seperate numeric keyboard put hashtag in front
 numlockx &
