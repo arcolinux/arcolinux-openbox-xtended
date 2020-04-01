@@ -455,12 +455,12 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>oblogout</command>
+        <command>arcolinux-logout</command>
       </action>
     </keybind>
     <keybind key="C-A-Delete">
       <action name="Execute">
-        <command>oblogout</command>
+        <command>arcolinux-logout</command>
       </action>
     </keybind>
     <keybind key="W-Escape">
@@ -571,7 +571,7 @@
     </keybind>
     <keybind key="W-Pause">
       <action name="Execute">
-        <command>oblogout</command>
+        <command>arcolinux-logout</command>
       </action>
     </keybind>
     <keybind key="S-W-q">
@@ -1178,7 +1178,7 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="oblogout">
+    <application name="arcolinux-logout">
       <position force="no">
         <monitor>1</monitor>
       </position>
