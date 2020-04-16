@@ -458,11 +458,6 @@
         <command>oblogout</command>
       </action>
     </keybind>
-    <keybind key="C-A-Delete">
-      <action name="Execute">
-        <command>oblogout</command>
-      </action>
-    </keybind>
     <keybind key="W-Escape">
       <action name="Execute">
         <command>xkill</command>
@@ -569,11 +564,6 @@
         <command>variety --pause</command>
       </action>
     </keybind>
-    <keybind key="W-Pause">
-      <action name="Execute">
-        <command>oblogout</command>
-      </action>
-    </keybind>
     <keybind key="S-W-q">
       <action name="Close"/>
     </keybind>
@@ -676,7 +666,7 @@
       </action>
       <action name="MaximizeFull"/>
     </keybind>
-    <keybind key="C-A-k">
+    <keybind key="W-k">
       <action name="Execute">
         <command>obkey</command>
       </action>
@@ -730,7 +720,12 @@
         <command>nitrogen</command>
       </action>
     </keybind>
-    <keybind key="C-A-O">
+    <keybind key="C-A-o">
+      <action name="Execute">
+        <command>sh ~/.config/openbox/scripts/picom-toggle.sh</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-y">
       <action name="Execute">
         <command>obconf</command>
       </action>
