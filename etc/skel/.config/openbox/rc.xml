@@ -423,7 +423,12 @@
         <command>exo-open --launch WebBrowser</command>
       </action>
     </keybind>
-    <keybind key="W-k">
+    <keybind key="C-A-k">
+      <action name="Execute">
+        <command>slimlock</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-l">
       <action name="Execute">
         <command>slimlock</command>
       </action>
