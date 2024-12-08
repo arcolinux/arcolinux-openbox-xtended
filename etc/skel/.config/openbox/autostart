@@ -9,6 +9,8 @@
 
 picom -b --config ~/.config/picom.conf &
 
+feh --bg-fill /usr/share/backgrounds/arco/arco-wallpaper.jpg &
+
 # start ArcoLinux Welcome  App
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
